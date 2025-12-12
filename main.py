@@ -1,5 +1,8 @@
-from frontend.gui import MainWindow
+from frontend.gui import MainApp
+
+def main():
+    app = MainApp()
+    app.mainloop()
 
 if __name__ == "__main__":
-    app = MainWindow()
-    app.mainloop()
+    main()
